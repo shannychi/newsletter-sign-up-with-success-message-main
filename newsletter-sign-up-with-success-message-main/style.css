@@ -1,0 +1,81 @@
+@font-face {
+    font-family: font;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: font;
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: hsl(234, 29%, 20%);
+}
+
+.row1 {
+    width: 60%;
+}
+
+.row2 {
+    width: 40%;
+}
+
+.row2 img{
+    width: 100%;
+}
+
+ul{
+list-style-image: url(./assets/images/icon-list.svg);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    height: 10px;
+}
+
+button {
+width: 90%;
+background-color: hsl(234, 29%, 20%);
+text-align: center;
+color: white;
+padding: 10px;
+border-radius: 4px;
+}
+
+#row{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: hsl(234, 29%, 20%);
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .container {
+    flex-direction: column-reverse;
+    width: 90%;
+    }
+    .row1 {
+        width: 100%;
+    }
+    
+    .row2 {
+        width: 100%;
+    }
+}
