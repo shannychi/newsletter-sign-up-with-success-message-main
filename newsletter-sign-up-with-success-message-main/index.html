@@ -18,7 +18,7 @@
 <body>
 
   <!-- Sign-up form start -->
-<div class="container">
+<div class="container hide">
 <div class="row1">
   <h1>Stay updated!</h1>
   <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -30,10 +30,11 @@
     <br/>
  <form>
   <label>Email address</label>
-  <input  type="text" placeholder="email@company.com" id="text/>
+  <input  type="email" placeholder="email@company.com" id="text"/>
+  <button type="submit" class="button">Subscribe to monthly newsletter</button>
  </form>
  <p></p>
- <button type="button" class="button" onclick="email()">Subscribe to monthly newsletter</button>
+ 
 </div>
 <div class="row2">
 <img src="./assets/images/illustration-sign-up-desktop.svg"/>
@@ -43,7 +44,7 @@
 
   <!-- Success message start -->
 
-  <div id="row">  
+  <div class="row3 hide">  
   <img src="./assets/images/icon-success.svg"/>
   <p></p>
   <h1>Thanks for subscribing!</h1>
