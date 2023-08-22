@@ -28,13 +28,15 @@
   <li>And much more!</li>
   <ul>
     <br/>
- <form>
+ <form name="myForm" method="post" required>
   <label>Email address</label>
-  <input  type="email" placeholder="email@company.com" id="text"/>
-  <button type="button" onclick="switchVisible()">Subscribe to monthly newsletter</button>
+  <p id="error_message"></p>
+  <input  type="email" placeholder="email@company.com" id="email"/>
+  <p></p>
+  <p></p>
+  <button type="button" value="submit" onclick="valideForm()">Subscribe to monthly newsletter</button>
  </form>
  <p></p>
- 
 </div>
 <div class="row2">
 <img src="./assets/images/illustration-sign-up-desktop.svg"/>

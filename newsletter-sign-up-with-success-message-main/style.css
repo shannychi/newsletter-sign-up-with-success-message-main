@@ -75,12 +75,12 @@ border-radius: 4px;
 }
 
 button:hover{
-    background-color:  hsla(4, 59%, 61%, 0.884);
+    background-color:  hsl(4, 100%, 67%);
 }
 
 
 #error_message {
-    color:hsl(3, 39%, 81%) ;
+    color:hsl(4, 100%, 67%);
     float: right;
     width: 50%;
     font-size: 11px;
