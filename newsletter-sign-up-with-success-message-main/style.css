@@ -23,6 +23,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     color: hsl(234, 29%, 20%);
+   
 }
 
 .row1 {
@@ -45,7 +46,7 @@ input {
     width: 90%;
     padding: 10px;
     text-align: center;
-    height: 10px;
+    height: 20px;
 }
 
 button {
@@ -63,9 +64,15 @@ border-radius: 4px;
     padding: 20px;
     border-radius: 20px;
     color: hsl(234, 29%, 20%);
+   
 }
 
-@media (max-width: 760px) {
+
+#b {
+    display: none;
+}
+
+ @media (max-width: 760px) {
     .container {
     flex-direction: column-reverse;
     width: 95%;
@@ -87,6 +94,7 @@ border-radius: 4px;
 
     .row2 img {
         content: url(./assets/images/illustration-sign-up-mobile.svg);
+        height: 100%;
     }
     .container h1 {
         font-size: 50px;
@@ -95,4 +103,5 @@ border-radius: 4px;
     form {
         width: 90%;
     }
+
 }
