@@ -44,9 +44,10 @@ list-style-image: url(./assets/images/icon-list.svg);
 
 input {
     width: 90%;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     height: 20px;
+    border-radius: 5px;
 }
 
 button {
@@ -55,6 +56,7 @@ background-color: hsl(234, 29%, 20%);
 text-align: center;
 color: white;
 padding: 10px;
+border: none;
 border-radius: 4px;
 }
 
@@ -72,6 +74,17 @@ border-radius: 4px;
     display: none;
 }
 
+button:hover{
+    background-color:  hsla(4, 59%, 61%, 0.884);
+}
+
+
+#error_message {
+    color:hsl(3, 39%, 81%) ;
+    float: right;
+    width: 50%;
+    font-size: 11px;
+}
  @media (max-width: 760px) {
     .container {
     flex-direction: column-reverse;
